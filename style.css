@@ -1,6 +1,6 @@
 /* Slider */
 .slick-slide {
-    margin: 0px 20px;
+    margin: 0px 0px;
 }
 .slick-slide img {
     width: 100%;
@@ -109,14 +109,14 @@
 
 /* News Styling */
 .news-slider {
-  padding: 40px 0;
+  padding: 0px 10;
 }
 .blogPost--small {
     color: #7c7b7b;
     margin: 20px 30px 40px 0;
 }
 .blogPost--small .media > .pull-left {
-    margin-right: 25px;
+    margin-right: 0px;
 }
 .blogPost--small a {
     color: #3;

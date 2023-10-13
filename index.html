@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Forked from solodev/realtime-news-slider and added enhancements like multi-line paragraphs, slider navigation buttons, single news row slide to save browser space, fonts. Hint: Adjust the preview pane's height to see it in full size. -->
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="news-slider.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="news-slider.js"></script>
+
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+html, body {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+}
+p {
+	white-space: pre-wrap;
+}
+.news-slider {
+	display: flex !important;
+}	
+.container {
+  height: 100px !important;
+}
+.navimg {
+	height: 48px;
+}
+.slick-arrow img {
+  opacity: 100 !important;
+}
+.blogPost--small .date, .blogPost--small .dateEl2 {
+  color: khaki !important;
+  background: #eb2026 !important;
+}
+.blogPost--small .date span, .blogPost--small .dateEl2 span {
+  color: khaki !important;
+}
+</style>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xl-8 news-slider">
+  
+	<div class="slide">
+	  <div class="blogPost--small">
+		<div class="media"dir="rtl">
+		  <span class="pull-right"><a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر"><span class="date"><span>الإثنين</span><small> مباشرة 9:05</small> <small> إعادة 14:05</small></span></a></span>
+		  <div class="media-body" dir="rtl">
+			<h4 class="media-heading">
+			  <a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر/معنا-الإثنين-أحلى/" target="_blank">معنا...الإثنين أحلى</a></h4>
+			<h4>إعداد وتقديم  زينب زعيتر</h4>
+			<p>وبداية أسبوع جديد ضمن فترة البث المباشر الصباحي
+إطلالة أسبوعية تتناول مختلف القضايا الاجتماعية والثقافية
+والترفيهية في إطارمن التبادل والحوار مع ضيوف البرنامج والمستمعين</p>
+		  </div>
+		</div>
+	  </div><!-- / blogPost -->
+	</div><!-- / slide1 -->
+
+		<div class="slide">
+	  <div class="blogPost--small">
+		<div class="media"dir="rtl">
+		  <span class="pull-right"><a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر"><span class="date"><span>الثلاثاء</span><small> مباشرة 9:05</small> <small> إعادة 14:05</small></a></span>
+		  <div class="media-body" dir="rtl">
+			<h4 class="media-heading">
+			  <a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر/يوم-سعيد" target="_blank">يوم سعيد</a></h4>
+			<h4>إعداد و تقديم سعيد ملكي</h4>
+			<p>بث مباشر يتضمن مقابلات في كل المجلات
+إضافة الى مواضيع متعددة وأخبار من كل العالم</p>
+		  </div>
+		</div>
+	  </div><!-- / blogPost -->
+	</div><!-- / slide2 -->
+	
+	<div class="slide">
+	  <div class="blogPost--small">
+		<div class="media"dir="rtl">
+		  <span class="pull-right"><a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر"><span class="date"><span>الأربعاء</span><small> مباشرة 9:05</small> <small> إعادة 14:05</small></span></a></span>
+		  <div class="media-body" dir="rtl">
+			<h4 class="media-heading">
+			  <a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر/عالهوا-سوا" target="_blank">عالهوا سوا</a></h4>
+			<h4>إعداد و تقديم انجليك مونس</h4>
+			<p>اشراقات صباحية تتناغم  فيها الكلمات والاغنيات لتولد مواعيد فرح تطير على اجنحة
+الاثير وتحلق في فضاء التواصل  مع المستمعين في رحلة محطاتها استراحات فنية
+ثقافية اجتماعية وانسانية شاملة</p>
+		  </div>
+		</div>
+	  </div><!-- / blogPost -->
+	</div><!-- / slide3 -->
+
+	<div class="slide">
+	  <div class="blogPost--small">
+		<div class="media"dir="rtl">
+		  <span class="pull-right"><a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر"><span class="date"><span>الخميس</span><small> مباشرة 9:05</small> <small> إعادة 14:05</small></span></a></span>
+		  <div class="media-body" dir="rtl">
+			<h4 class="media-heading">
+			  <a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر/صباحكم-ورد" target="_blank">صباحكم ورد</a></h4>
+			<h4>إعداد و تقديم رندة قرانوح</h4>
+			<p>نظرة تفاؤلية تفاعلية مع مختصين بمجالات 
+اجتماعية وبيئية، تربوية وثقافية وصحية</p>
+		  </div>
+		</div>
+	  </div><!-- / blogPost -->
+	</div><!-- / slide4 -->
+	
+		<div class="slide">
+	  <div class="blogPost--small">
+		<div class="media"dir="rtl">
+		  <span class="pull-right"><a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر"><span class="date"><span>الجمعة</span><small> مباشرة 9:05</small> <small> إعادة 14:05</small></span></a></span>
+		  <div class="media-body" dir="rtl">
+			<h4 class="media-heading">
+			  <a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر/صالون-الجمعة" target="_blank">صالون الجمعة</a></h4>
+			<h4>إعداد و تقديم منى باز</h4>
+			<p>مقابلات مع أصحاب الإختصاص في كافة المجالات</p>
+		  </div>
+		</div>
+	  </div><!-- / blogPost -->
+	</div><!-- / slide5 -->
+
+<div class="slide">
+	  <div class="blogPost--small">
+		<div class="media"dir="rtl">
+		  <span class="pull-right"><a href="https://sites.google.com/view/radioliban/البرامج/رياضة"><span class="date"><span>الإثنين</span><small> مباشرة</small> <small> 4:05 عصراً</small></span></a></span>
+		  <div class="media-body" dir="rtl">
+			<h4 class="media-heading">
+			  <a href="https://sites.google.com/view/radioliban/البرامج/رياضة/ستاد" target="_blank">ستاد</a></h4>
+			<h4>إعداد وتقديم عباس حسن</h4>
+			<p>ستاد مجلة رياضية أسبوعية تتناول آخر التطورات الرياضية المحلية والعالمية
+إطلالة على ملاعب كرة القدم المحلية العربية والعالمية مع أبرز المحللين</p>
+		  </div>
+		</div>
+	  </div><!-- / blogPost -->
+	</div><!-- / slide6 -->
+	
+<div class="slide">
+	  <div class="blogPost--small">
+		<div class="media"dir="rtl">
+		  <span class="pull-right"><a href="https://sites.google.com/view/radioliban/البرامج/صحة"><span class="date"><span>الإثنين</span><small> مباشرة</small> <small>5:05 عصراً</small></span></a></span>
+		  <div class="media-body" dir="rtl">
+			<h4 class="media-heading">
+			  <a href="https://sites.google.com/view/radioliban/البرامج/صحة/الو-دكتور" target="_blank">الو دكتور </a></h4>
+			<h4>اعداد وتقديم الدكتور عباس المصري</h4>
+			<p>برنامج طبي مع الدكتور عباس المصري يجيب على أسئلتكم الصحية</p>
+		  </div>
+		</div>
+	  </div><!-- / blogPost -->
+	</div><!-- / slide7 -->
+	
+	<div class="slide">
+	  <div class="blogPost--small">
+		<div class="media"dir="rtl">
+		  <span class="pull-right"><a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر"><span class="date"><span>الإثنين</span><small> مباشرة</small> <small>10:05 ليلاً</small></span></a></span>
+		  <div class="media-body" dir="rtl">
+			<h4 class="media-heading">
+			  <a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر/الزمن-الجميل" target="_blank">الزمن الجميل</a></h4>
+			<h4>إعداد و تقديم مروان أبو نصر الدين</h4>
+			<p>يعود بالذاكرة الى الفن الأصيل في القرن الماضي
+موسيقى شعر ذكريات وأغنيات مع الضيوف والفنانين</p>
+		  </div>
+		</div>
+	  </div><!-- / blogPost -->
+	</div><!-- / slide8 -->
+	
+		<div class="slide">
+	  <div class="blogPost--small">
+		<div class="media"dir="rtl"> 
+		  <span class="pull-right"><a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر"><span class="date"><span>الثلاثاء</span><small> مباشرة 12:05</small> <small> إعادة 20:00</small></span></a></span>
+		  <div class="media-body" dir="rtl">
+			<h4 class="media-heading">
+			  <a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر/منبر-الحدث" target="_blank">منبر الحدث</a></h4>
+			<h4>اعداد وتقديم غادة ناصر</h4>
+			<p>منبر الحدث يسلّط الضوء على معاناة
+وأوجاع المواطن ويناقش المسؤول حول قضايا الساعة</p>
+		  </div>
+		</div>
+	  </div><!-- / blogPost -->
+	</div><!-- / slide9 -->
+	
+	
+	<div class="slide">
+	  <div class="blogPost--small">
+		<div class="media"dir="rtl"> 
+		  <span class="pull-right"><a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر"><span class="date"><span>الثلاثاء</span><small> مباشرة 17:05</small> <small> إعادة الأربعاء 12:05</small></span></a></span>
+		  <div class="media-body" dir="rtl">
+			<h4 class="media-heading">
+			  <a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر/هوا-الشباب" target="_blank">هوا الشباب</a></h4>
+			<h4>إعداد وتقديم يارا حمادة</h4>
+			<p>مهوا الشباب يسلط الضوء على مبادرات وإنجازات الشباب في لبنان وحول العالم
+مع فقرة أسبوعية ثابتة بالتعاون مع مكتب الامم المتحدة للإعلام في بيروت</p>
+		  </div>
+		</div>
+	  </div><!-- / blogPost -->
+	</div><!-- / slide10 -->
+	
+	
+	<div class="slide">
+	  <div class="blogPost--small">
+		<div class="media"dir="rtl"> 
+		  <span class="pull-right"><a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر"><span class="date"><span>الأربعاء</span><small> مباشرة 17:05</small> <small>إعادة السبت 14:05</small></span></a></span>
+		  <div class="media-body" dir="rtl">
+			<h4 class="media-heading">
+			  <a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر/ميكروفون-الفنون" target="_blank">ميكروفون الفنون</a></h4>
+			<h4>إعداد و تقديم محمد حجازي</h4>
+			<p>يغطي كافة الفنون المرئية والمسموعة في لبنان ودنيا العرب والعالم
+مركّزامركّزا على المهرجانات وصناعة الافلام وعالم المسرح</p>
+		  </div>
+		</div>
+	  </div><!-- / blogPost -->
+	</div><!-- / slide10 -->
+	
+	<div class="slide">
+	  <div class="blogPost--small">
+		<div class="media"dir="rtl"> 
+		  <span class="pull-right"><a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر"><span class="date"><span>الخميس</span><small> مباشرة 12:05</small> <small>إعادة السبت 9:05</small></span></a></span>
+		  <div class="media-body" dir="rtl">
+			<h4 class="media-heading">
+			  <a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر/لحياة-افضل" target="_blank">لحياة افضل</a></h4>
+			<h4>إعداد و تقديم ريما الاعور</h4>
+			<p>مقابلات مع أصحاب الإختصاص في كافة المجالات</p>
+		  </div>
+		</div>
+	  </div><!-- / blogPost -->
+	</div><!-- / slide11 -->
+	
+		<div class="slide">
+	  <div class="blogPost--small">
+		<div class="media"dir="rtl"> 
+		  <span class="pull-right"><a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر"><span class="date"><span>الجمعة</span><small> مباشرة 16:05</small> <small>إعادة الأحد 14:05</small></span></a></span>
+		  <div class="media-body" dir="rtl">
+			<h4 class="media-heading">
+			  <a href="https://sites.google.com/view/radioliban/البرامج/البث-المباشر/one-lebanon" target="_blank">One Lebanon</a></h4>
+			<h4>إعداد وتقديم جون سعد</h4>
+			<p>برنامج ترفيهي يواكب الحركة الفنية في لبنان
+ويضيء على الاحداث المميزة على الصعيدين العربي والغربي</p>
+		  </div>
+		</div>
+	  </div><!-- / blogPost -->
+	</div><!-- / slide11 -->
+	
+    </div>
+  </div>	
+</div>
+
+	<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
